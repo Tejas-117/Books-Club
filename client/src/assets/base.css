@@ -1,0 +1,43 @@
+/* Default styling ends here */
+:root {
+  --kinda-black: #1a1a1a;
+  --very-close-black: #474747;
+  --kinda-white: #f8f0f6;
+  --kinda-grey: #959191;
+  --borders: #727272; 
+  --secondary-dull: #595959;
+  --silver: #cccccc;
+}
+
+* {
+  font-family: "Poppins";
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb{
+	background-color: #00000062;
+	/* border: 2px solid #555555; */
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+a{
+  color: var(--kinda-black);
+}

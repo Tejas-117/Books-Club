@@ -1,0 +1,10 @@
+.vscode/
+my_env/
+
+client/node_modules
+client/dist
+client/package-lock.json
+
+api/.env
+api/**/__pycache__
+api/static
